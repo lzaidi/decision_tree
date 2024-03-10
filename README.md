@@ -49,20 +49,24 @@ predict(X_test): Makes predictions for the given test data.<br>
 score(X_test, y_test): Calculates the accuracy score for the predictions compared to the actual values.<br>
 <br>
 # Example usage for regression
+`
 reg_tree = RegressionTree621(min_samples_leaf=5)
 reg_tree.fit(X_train, y_train)
 predictions = reg_tree.predict(X_test)
 r2 = reg_tree.score(X_test, y_test)
+`
 <br>
 # Example usage for classification
+`
 class_tree = ClassifierTree621(min_samples_leaf=5)
 class_tree.fit(X_train, y_train)
 predictions = class_tree.predict(X_test)
 accuracy = class_tree.score(X_test, y_test)
+`
 ### Dependencies
-numpy<br>
-scipy<br>
-scikit-learn<br>
+* numpy<br>
+* scipy<br>
+* scikit-learn<br>
 ### Installation
 `pip install numpy scipy scikit-learn
 `

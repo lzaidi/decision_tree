@@ -1,5 +1,4 @@
-# Decision Tree Implementation (DecisionTree621)
-
+# Decision Tree Implementation 
 This is a Python implementation of a decision tree for both regression and classification tasks. The code is designed to be modular, with separate classes for DecisionNode and LeafNode. It includes classes for both regression and classification trees, allowing for easy extension to different types of tasks.
 
 ## Usage

@@ -56,6 +56,7 @@ predictions = reg_tree.predict(X_test)
 r2 = reg_tree.score(X_test, y_test)
 ```
 <br>
+
 # Example usage for classification
 ```
 class_tree = ClassifierTree621(min_samples_leaf=5)
@@ -63,6 +64,7 @@ class_tree.fit(X_train, y_train)
 predictions = class_tree.predict(X_test)
 accuracy = class_tree.score(X_test, y_test)
 ```
+<br>
 ### Dependencies
 * numpy<br>
 * scipy<br>

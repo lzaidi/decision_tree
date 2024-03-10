@@ -64,11 +64,11 @@ class_tree.fit(X_train, y_train)
 predictions = class_tree.predict(X_test)
 accuracy = class_tree.score(X_test, y_test)
 ```
-<br>
-### Dependencies
-* numpy<br>
-* scipy<br>
-* scikit-learn<br>
+
+### Dependencies: <br>
+- numpy
+- scipy
+- scikit-learn
 ### Installation
 `pip install numpy scipy scikit-learn
 `
